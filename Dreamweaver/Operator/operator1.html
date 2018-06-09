@@ -1,0 +1,50 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+</head>
+<body>
+<script>
+//= += -= *= /= %=
+ x=10;//Assign
+ x += 5;//x=x+5 , x=10+5, x=15
+ x -=8;//x=x-8, x=10-8, x=2
+ x *=2; // x=x * 2, x=10 *2, x=20
+ x /=5; //x=x /5, x= 10 / 5,x=2
+ x %=3;  //x=x %3, x=10 % 3, x=1 /////////////////////////////////// vvvvvv
+ 
+ document.write("<hr/>");
+ 
+ // ?: Ternary Operator
+ var age = 25;
+ var rs = age > 28? true : false;
+ document.write("Result:" + rs + "<br/>");
+  document.write("<hr/>");
+  
+ var wc = age >= 18 ? "Welcome" : "Not Permitted";
+  document.write("Result: " + wc + "<br/>");
+   document.write("<hr/>");
+ // typeof operator
+ var salary = 50000;
+ var name= "Donalth J Trump";
+ var students= ['Arefin', 'Mita','Mededeee'];
+ var result= true;
+ var abc;
+ var rs = null;
+ document.write("salary for Number: " + typeof salary + "<br/>");
+ document.write("name for String: " + typeof name + "<br/>");
+ document.write("students for Object: " + typeof students + "<br/>");
+ document.write("result for Boolean: " + typeof result + "<br/>");
+ document.write("abc for Undefined: " + typeof abc + "<br/>");
+ document.write("rs for Null: " + typeof rs + "<br/>");
+ 
+ //delete operator
+ var ppp = [10, 20, 30];
+ delete (ppp[1]);
+ document.write([ppp]);
+</script>
+<a href="javascript: alert('Wow! JavaScript is Awesome!!!')">Hit Me</a>
+</body>
+<body bgcolor="#666666">
+</html>
